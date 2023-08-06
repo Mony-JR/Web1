@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+article>span{
+    position: relative;
+    left: 50%;
+}
+.box{
+    width: 60vh;
+    height: 20vh;
+    background-color: rgb(175, 72, 72);
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.pic{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+.position{
+    margin-left: 20px;
+}
+.position>h3{
+    color: #f6f4f4;
+}
